@@ -27,13 +27,13 @@ public class Main2 {
                 }
             }
         }
-        System.out.println(player1); //A partir de aquí son las condiciones de si ganas o pierdes
+        System.out.println(player1);
         if (player1.blackJackNumber() > 21) {
             System.out.println("Eres malo");
-        } else if (player2.blackJackNumber() == 21) {
+        } else if (player1.blackJackNumber() == 21) {
             System.out.println("Lo has hecho muy bien");
         } else {
-            System.out.println("Te has quedado a " + (21 - player2.blackJackNumber()) + " de ser un ganador");
+            System.out.println("Te has quedado a " + (21 - player1.blackJackNumber()) + " de ser un ganador");
         }
 
     }
