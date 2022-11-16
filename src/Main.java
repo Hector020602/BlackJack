@@ -11,9 +11,9 @@ public class Main {
         }
         System.out.println(myHand);
         if (myHand.blackJackNumber() > 21) {
-            System.out.println("Sos malo");
+            System.out.println("Eres malo");
         } else if (myHand.blackJackNumber() == 21) {
-            System.out.println("Debes de ser de Mcdonalds porque sos Mcnifico");
+            System.out.println("Lo has hecho muy bien");
         } else {
             System.out.println("Te has quedado a " + (21 - myHand.blackJackNumber()) + " de ser un ganador");
         }
